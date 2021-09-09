@@ -1,0 +1,184 @@
+#checklist-selected-style
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
+  background-color: #30aeb0;
+  border-color: #30aeb0;
+}
+
+#checklist-inline-input
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
+  background-color: #30aeb0;
+  border-color: #30aeb0;
+}
+
+#radioitems-inline-input
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
+  background-color: #30aeb0;
+  border-color: #30aeb0;
+}
+
+#group-gender-items
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
+  background-color: #30aeb0;
+  border-color: #30aeb0;
+}
+
+.fcMEZy {
+    height: auto;
+    display: flex;
+    transition: all 0.1s ease-in 0s;
+    width: 45px;
+    cursor: pointer;
+    padding: 2.25px;
+    border-radius: 45px;
+    margin-left: 2.25px;
+    margin-right: 2.25px;
+    background: rgb(48, 174, 176);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.cmSQpo {
+    height: auto;
+    display: flex;
+    transition: all 0.1s ease-in 0s;
+    width: 45px;
+    cursor: pointer;
+    padding: 2.25px;
+    border-radius: 45px;
+    margin-left: 2.25px;
+    margin-right: 2.25px;
+    background: #8F9595;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.jAjsxw {
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    transform: rotate(0deg);
+    transform: scale(0.6,0.6);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: -15px;
+    margin-left: -15px;
+    color: rgb(48, 174, 176);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+#my-date-picker-range
+.element.style {
+    padding-right: 0px;
+    width: 452px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DateInput.DateInput_1{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    vertical-align: middle;
+}
+
+.DateInput_input {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 24px;
+    color: #30AEB0;
+    background-color: #E9F7F7;
+    width: 342px;
+    padding: 11px 11px 9px;
+    border: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid transparent;
+    border-left: 0;
+    border-radius: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+.DateRangePickerInput__showClearDates {
+    padding-right: -10px;
+}
+.DateRangePickerInput__withBorder {
+    border-radius: none;
+    border: none;
+}
+.DateRangePickerInput {
+    background-color: transparent;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(48, 174, 176);
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background: transparent;
+}
+
+.DateInput_input__focused {
+    background: #E9F7F7;
+    border: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #008489;
+    border-left: 0;
+}
+.DateRangePickerInput_clearDates {
+    background: 0 0;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 10px;
+    margin: 0 10px 0 5px;
+    position: absolute;
+    left: 610px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Select--multi .Select-value {
+    background-color: #ebf5ff;
+    background-color: rgba(0,126,255,.08);
+    border-radius: 2px;
+    border: 1px solid #c2e0ff;
+    border: 1px solid rgba(0,126,255,.24);
+    color: #30AEB0;
+    display: inline-block;
+    font-size: .9em;
+    line-height: 1.4;
+    margin-left: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.Select {
+    position: relative;
+    padding-left: 15px;
+}

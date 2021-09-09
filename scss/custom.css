@@ -1,0 +1,12 @@
+.cmSQpo {
+    height: auto;
+    display: flex;
+    transition: all 0.1s ease-in 0s;
+    width: 45px;
+    cursor: pointer;
+    padding: 2.25px;
+    border-radius: 45px;
+    margin-left: 2.25px;
+    margin-right: 2.25px;
+    background: #8F9595;
+}
